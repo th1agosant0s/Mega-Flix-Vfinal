@@ -1,0 +1,49 @@
+.PrincipaisFilmes{
+    
+    background: #6F0AA6;
+    background-image: linear-gradient(to bottom, #140226, #4c088b, #500597);
+
+
+}
+
+img, .atropos{
+
+height: auto;
+width: 400px;
+border-radius: 12px;
+}
+
+.FilmesPricipais__titulo{
+    font-size: 36px;
+    color: #9b9696;
+    text-align: center;
+    font-family:Source Code Pro ;
+}
+
+.atropos{
+    margin-top: 60px;
+}
+
+
+@media(max-width: 720px){
+    .fileiraFilmesCima, .fileiraFilmesBaixo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.fileiraFilmesCima{
+    display: flex;
+    justify-content: space-around;
+
+}
+.fileiraFilmesBaixo{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+main{
+    height: 100%;
+}

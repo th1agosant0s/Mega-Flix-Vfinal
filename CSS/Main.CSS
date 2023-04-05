@@ -1,0 +1,9 @@
+@import "header.CSS";
+@import "caracteristicas.css";
+@import "FilmesPrincipais.css";
+@import "atropos.css";
+
+*{
+    padding: 0;
+    margin: 0;
+}
